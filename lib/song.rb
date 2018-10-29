@@ -32,7 +32,7 @@ class Song
     count = 1
     genre_hash = {}
     @@genres.each do |genre,value|
-      if genre.uniq!
+      if genre.uniq
       genre_hash[genre][value]
       genre_hash
   end
